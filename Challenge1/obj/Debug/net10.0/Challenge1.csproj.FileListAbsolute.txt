@@ -1,0 +1,14 @@
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\bin\Debug\net10.0\Challenge1.exe
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\bin\Debug\net10.0\Challenge1.deps.json
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\bin\Debug\net10.0\Challenge1.runtimeconfig.json
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\bin\Debug\net10.0\Challenge1.dll
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\bin\Debug\net10.0\Challenge1.pdb
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.AssemblyInfoInputs.cache
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.AssemblyInfo.cs
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.csproj.CoreCompileInputs.cache
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.dll
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\refint\Challenge1.dll
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.pdb
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\Challenge1.genruntimeconfig.cache
+C:\Users\neytp\RiderProjects\HTF2025\Challenge1\obj\Debug\net10.0\ref\Challenge1.dll
