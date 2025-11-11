@@ -103,3 +103,8 @@ GeneratedFiles/
 *.dll
 *.mdb
 *.dbmdl
+
+# Build artifacts
+**/bin/
+**/obj/
+
