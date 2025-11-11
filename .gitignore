@@ -1,0 +1,105 @@
+# =========================
+# Visual Studio / Rider / .NET
+# =========================
+
+# Build artifacts
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# Rider / IntelliJ IDEA
+.idea/
+*.iml
+.idea.*
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+*.pid
+*.seed
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains Rider system files
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+TestResult*/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+dist/
+
+# ASP.NET / Blazor / Razor
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+.bundle/
+*.dll.config
+
+# Logs
+*.tlog
+
+# Backup files
+*~
+*.orig
+
+# Database
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Generated files
+GeneratedFiles/
+
+# Others
+.env
+.env.*
+*.pdb
+*.exe
+*.dll
+*.mdb
+*.dbmdl
