@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeA2", "ChallengeA2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeB-M", "ChallengeB-M\ChallengeB-M.csproj", "{3519B556-D015-4F25-8D26-9DC3C9843B7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeB-H", "ChallengeB-H\ChallengeB-H.csproj", "{6470FA96-18D3-4257-985D-70FE1736A19B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeA3", "ChallengeA3\ChallengeA3.csproj", "{FF0625AB-0636-4352-BDF0-911834B44D15}"
 EndProject
 Global
@@ -42,5 +44,9 @@ Global
 		{FF0625AB-0636-4352-BDF0-911834B44D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF0625AB-0636-4352-BDF0-911834B44D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF0625AB-0636-4352-BDF0-911834B44D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6470FA96-18D3-4257-985D-70FE1736A19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6470FA96-18D3-4257-985D-70FE1736A19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6470FA96-18D3-4257-985D-70FE1736A19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6470FA96-18D3-4257-985D-70FE1736A19B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
