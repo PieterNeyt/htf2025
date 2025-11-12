@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.Json;
 using Client.Dto.DriftScan;
+using Client.Dto.Team;
 using HTF2025_Client.Dto.AbyssalExpedition;
 using HTF2025_Client.Dto.AbyssalLifeformClassifier;
 using HTF2025_Client.Dto.AbyssalSurvey;

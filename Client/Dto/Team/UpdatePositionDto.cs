@@ -1,4 +1,6 @@
-namespace HTF2025_Client.Dto.Team;
+using HTF2025_Client.Dto.Team;
+
+namespace Client.Dto.Team;
 
 public sealed class UpdatePositionDto
 {
