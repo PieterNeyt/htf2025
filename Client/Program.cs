@@ -12,3 +12,8 @@ var tokenResponse = await htfHttpClient.GetTeamTokenAsync("TheOutdoorBytes", "71
 var token = await tokenResponse.Content.ReadFromJsonAsync<GetTokenDto>();
 
 htfHttpClient.SetToken(token);
+
+for (int i = 0; i < 2; i++)
+{
+    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 90, Speed = SpeedDto.Fast}));   
+}
