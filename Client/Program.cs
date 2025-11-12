@@ -13,7 +13,7 @@ var token = await tokenResponse.Content.ReadFromJsonAsync<GetTokenDto>();
 
 htfHttpClient.SetToken(token);
 
-for (int i = 0; i < 10; i++)
+for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 270, Speed = SpeedDto.Fast}));   
+    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 0, Speed = SpeedDto.Fast}));   
 }
