@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+using Client.Dto.Team;
 using Client.HttpClient;
 using HTF2025_Client.Dto.Team;
 
@@ -15,5 +16,5 @@ htfHttpClient.SetToken(token);
 
 for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 0, Speed = SpeedDto.Fast}));   
+    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 45, Speed = SpeedDto.Fast}));   
 }
