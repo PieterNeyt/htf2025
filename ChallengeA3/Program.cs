@@ -93,8 +93,12 @@ int GetNumberFromCategory(int category, Dictionary<string, int> frequencyMap)
 {
     Random random = new Random();
     var rangeKey = frequencyMap.FirstOrDefault(kvp => kvp.Value == category).Key;
-    var bounds = rangeKey.Split('-').Select(int.Parse).ToArray();
-    return random.Next(bounds[0], bounds[1] + 1);
+
+    var parts = rangeKey.Split('-');
+    int min = int.Parse(parts[0]);
+    int max = int.Parse(parts[1]);
+
+    return random.Next(min, max + 1);
 }
 
 
@@ -109,9 +113,13 @@ int GetFrequencyMapValue(int value, Dictionary<string, int> frequencyMap)
 {
     foreach (var range in frequencyMap)
     {
-        var bounds = range.Key.Split('-').Select(int.Parse).ToArray();
-        if (value >= bounds[0] && value <= bounds[1])
+        var parts = range.Key.Split('-');
+        int min = int.Parse(parts[0]);
+        int max = int.Parse(parts[1]);
+        if (value >= min && value <= max)
+        {
             return range.Value;
+        }
     }
 
     return -1;
