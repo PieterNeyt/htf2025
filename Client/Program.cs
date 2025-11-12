@@ -16,5 +16,5 @@ htfHttpClient.SetToken(token);
 
 for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 45, Speed = SpeedDto.Fast}));   
+    Console.WriteLine(await htfHttpClient.PostTeamMoveAsync(new UpdatePositionDto {Angle = 0, Speed = SpeedDto.Fast}));   
 }
