@@ -1,4 +1,4 @@
-﻿namespace HTF2025_Client.Dto.DriftScan;
+﻿namespace Client.Dto.DriftScan;
 
 public class DriftScanSolutionDto
 {

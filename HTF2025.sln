@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeA1", "ChallengeA1\ChallengeA1.csproj", "{CCFE69EF-388C-408C-AB4C-1E1488913306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge2", "Challenge2\Challenge2.csproj", "{3D7998A4-2D0D-437F-9986-C4F993C1FBC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeB-E", "ChallengeB-E\ChallengeB-E.csproj", "{3D7998A4-2D0D-437F-9986-C4F993C1FBC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{168BE7BC-08A8-4713-A9DF-F49D1AE3E437}"
 EndProject
